@@ -1,10 +1,6 @@
 <?php
 /**
  * 邮件
- *
- * @author mybsdc <mybsdc@gmail.com>
- * @date 2019/5/12
- * @time 16:38
  */
 
 namespace Luolongfei\Lib;
@@ -67,7 +63,7 @@ class Mail
             self::$mail->Port = $port; // 设置SMTP端口号 - tsl使用587端口，ssl使用465端口
             self::$mail->CharSet = 'UTF-8'; // 防止中文邮件乱码
             self::$mail->setLanguage('zh_cn', VENDOR_PATH . '/phpmailer/phpmailer/language/'); // 设置语言
-            self::$mail->setFrom($username, 'im robot'); // 发件人
+            self::$mail->setFrom($username, 'FN '); // 发件人
         }
 
         return self::$mail;
