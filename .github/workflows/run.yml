@@ -10,14 +10,14 @@
 #
 ######  end 说明  ######
 
-name: Run it on action
+name: Freenom Renew
 
 on:
   push:
     branches:
       - master
   schedule:
-    - cron: 16 16 * * *
+    - cron: 00 02 * * *
 jobs:
   run-it:
     runs-on: ubuntu-18.04
