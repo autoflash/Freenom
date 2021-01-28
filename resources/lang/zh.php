@@ -1,10 +1,6 @@
 <?php
 /**
  * 语言包
- *
- * @author mybsdc <mybsdc@gmail.com>
- * @date 2018/8/10
- * @time 14:39
  */
 
 return [
